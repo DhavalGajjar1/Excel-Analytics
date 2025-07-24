@@ -104,24 +104,13 @@ export default function AdminDashboard() {
 
   return (
     <div className="min-h-screen flex bg-gray-50">
-      {/* Sidebar
-      <aside className="w-64 bg-white shadow-md border-r">
-        <div className="p-6 font-bold text-lg text-blue-700">Admin Panel</div>
-        <ul className="space-y-2 px-6 text-sm font-medium text-gray-700">
-          <li>
-            <Link to="/admin-dashboard" className="text-blue-800 font-semibold">👥 User Management</Link>
-          </li>
-        </ul>
-      </aside> */}
-
-      {/* Main content */}
       <motion.div className="flex-1 p-6 max-w-7xl mx-auto" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <Header />
 
         <h1 className="text-3xl font-bold text-gray-800 mb-2">Admin Dashboard</h1>
         <p className="text-gray-500 mb-4">Welcome, {user?.name} ({user?.role})</p>
 
-        {/* ✅ Counters */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
           <div className="bg-blue-100 border-l-4 border-blue-500 text-blue-800 p-4 rounded shadow-sm">
             <p className="font-semibold text-lg">👤 Total Users: {filteredUsers.length}</p>
@@ -131,7 +120,7 @@ export default function AdminDashboard() {
           </div>
         </div>
 
-        {/* Filters */}
+      
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
           <input
             type="text"
@@ -148,7 +137,7 @@ export default function AdminDashboard() {
           />
         </div>
 
-        {/* Table */}
+
         <motion.div className="bg-white shadow-lg rounded-xl p-6" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.4 }}>
           <h2 className="text-2xl font-semibold mb-4 text-blue-800">All Registered Users</h2>
           <div className="overflow-x-auto">
