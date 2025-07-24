@@ -5,6 +5,6 @@ const userSchema = new mongoose.Schema({
   password: String,
   role: { type: String, enum: ['user', 'admin'], default: 'user' },
 }, {
-  timestamps: true // ✅ This adds `createdAt` and `updatedAt`
+  timestamps: true 
 });
 module.exports = mongoose.model('User', userSchema);
