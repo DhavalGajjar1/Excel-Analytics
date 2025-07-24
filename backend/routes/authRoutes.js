@@ -10,11 +10,11 @@ const {
 
 const router = express.Router();
 
-router.post('/register', register);             // Shared register
-router.post('/login', login);                   // Shared login
-router.post('/forgot-password', sendOtp);       // Send OTP
-router.post('/verify-otp', verifyOtp);          // Verify OTP
-router.post('/create-new-password', createNewPassword); // Create new password
+router.post('/register', register);           
+router.post('/login', login);                   
+router.post('/forgot-password', sendOtp);       
+router.post('/verify-otp', verifyOtp);          
+router.post('/create-new-password', createNewPassword); 
 router.post('/new-password', authController.createNewPassword);
 
 
