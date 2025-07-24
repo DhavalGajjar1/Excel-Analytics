@@ -32,7 +32,7 @@ export default function LandingPage() {
 
   return (
     <div ref={vantaRef} className="min-h-screen flex flex-col">
-      {/* Header */}
+  
       <header className="p-4 flex justify-between items-center text-white z-10 relative">
         <h1 className="text-2xl font-bold">KODE Analytics</h1>
         <button
@@ -43,7 +43,7 @@ export default function LandingPage() {
         </button>
       </header>
 
-      {/* Main Section */}
+    
       <main className="flex-1 flex flex-col items-center justify-center text-white text-center px-6 z-10 relative">
         <h2 className="text-4xl md:text-5xl font-bold mb-4">Welcome to Smart Data Visualization</h2>
         <p className="mb-8 text-lg md:text-xl">Upload, Analyze, and Export Charts with Ease</p>
