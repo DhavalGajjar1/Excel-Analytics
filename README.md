@@ -48,7 +48,7 @@ A full-stack web application where users can register/login, upload Excel files,
 git clone https://github.com/yourusername/excel-analytics-dashboard.git
 cd excel-analytics-dashboard
 
-##Backend Setup
+2️⃣ Backend Setup
 cd backend
 npm install
 
@@ -63,18 +63,4 @@ cd frontend
 npm install
 npm start
 
-📁 Folder Structure
-backend/
-  controllers/
-  models/
-  routes/
-  middleware/
-  uploads/
-  utils/
-  .env
-  Server.js
 
-frontend/
-  pages/
-  components/
-  App.jsx
