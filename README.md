@@ -35,6 +35,9 @@ A full-stack web application where users can register/login, upload Excel files,
 - Promote users to admin
 - View total user count and total uploaded file count
 - Filter/search users by name/email/date
+- ADMIN LOGIN : dhaval@gmail.com
+- Password : 1234
+
 
 ---
 
